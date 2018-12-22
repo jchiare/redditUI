@@ -1,0 +1,18 @@
+{
+    "name":"Reddit UI",
+    "version": "1.0.0",
+    "manifest_version":2,
+
+    "description":"Redirects you to the old reddit view whenever visit reddit.",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://www.reddit.com/*"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}
